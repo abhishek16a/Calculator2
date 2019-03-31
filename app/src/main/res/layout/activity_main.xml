@@ -24,7 +24,9 @@
            android:id="@+id/btn1"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:hint="1"/>
+           android:hint="1"
+           android:layout_marginLeft="30dp"
+           />
 
         <Button
             android:id="@+id/btn2"
@@ -47,7 +49,8 @@
             android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="4"/>
+            android:hint="4"
+            android:layout_marginLeft="30dp"/>
         <Button
             android:id="@+id/btn5"
             android:layout_width="match_parent"
@@ -67,7 +70,8 @@
             android:id="@+id/btn7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="7"/>
+            android:hint="7"
+            android:layout_marginLeft="30dp"/>
         <Button
             android:id="@+id/btn8"
             android:layout_width="match_parent"
@@ -87,14 +91,15 @@
             android:id="@+id/btn0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="0"/>
+            android:hint="0"
+            android:layout_marginLeft="30dp"/>
         <Button
             android:id="@+id/btnDot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="."/>
         <Button
-            android:id="@+id/btnEqual"
+            android:id="@+id/btnCalc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="="/>
